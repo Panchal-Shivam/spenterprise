@@ -231,46 +231,12 @@ function loadGallery(){
 // POPUP CLOSE BUTTON
 // ==========================================
 
-document.addEventListener("DOMContentLoaded", () => {
-
-  const closePopup = document.getElementById("closePopup");
-
-  if(closePopup){
-
-    closePopup.addEventListener("click", () => {
-
-      document.getElementById("imagePopup").style.display = "none";
-
-    });
-
-  }
-
-});
-
 
 // ==========================================
 // CLOSE POPUP ON OUTSIDE CLICK
 // ==========================================
 
-document.addEventListener("DOMContentLoaded", () => {
 
-  const imagePopup = document.getElementById("imagePopup");
-
-  if(imagePopup){
-
-    imagePopup.addEventListener("click", (e) => {
-
-      if(e.target.id === "imagePopup"){
-
-        imagePopup.style.display = "none";
-
-      }
-
-    });
-
-  }
-
-});
 
 
 // ==========================================
